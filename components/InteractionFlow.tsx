@@ -340,7 +340,9 @@ const LoveMeterStep = ({ onComplete }: { onComplete: () => void }) => {
 
 // --- Step 4: Typewriter ---
 const TypewriterStep = ({ onComplete }: { onComplete: () => void }) => {
-    const text = "Happy Valentine! My Lovely, Nuril Hasmi❤️";
+    const text = "Happy Valentine!";
+    const text = "My Lovely,"
+    const text = "Nuril Hasmi❤️"
     const [displayedText, setDisplayedText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
 
