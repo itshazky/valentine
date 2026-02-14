@@ -31,8 +31,7 @@ export default function Home() {
         <InteractionFlow onFlowComplete={() => setShowGallery(true)} />
       ) : (
         <>
-          <audio src="/pretty.mp3" autoPlay loop className="hidden" 
-          <button onclick="document.getElementById('bgm').play()">
+         <button <audio src="/pretty.mp3" autoPlay loop className="hidden" button onclick="document.getElementById('bgm').play()">
   Play Music 💕
 </button>
 
