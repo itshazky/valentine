@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import DomeGallery from '@/components/DomeGallery';
 import InteractionFlow from '@/components/InteractionFlow';
-import MusicPlayer from "./MusicPlayer";
 
 export default function Home() {
   const [showGallery, setShowGallery] = useState(false);
@@ -27,14 +26,6 @@ export default function Home() {
   ];
 
   return (
-    export default function Page() {
-  return (
-    <main>
-      <h1>Untuk Kamu ❤️</h1>
-      <MusicPlayer />
-    </main>
-  );
-}
     <main className="w-screen h-screen bg-[#060010]">
       {!showGallery ? (
         <InteractionFlow onFlowComplete={() => setShowGallery(true)} />
