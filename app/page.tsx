@@ -1,5 +1,5 @@
 'use client';
-import { useRef } from "react";
+import { useRef } from 'react';
 
 export default function Page() {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -18,7 +18,7 @@ export default function Page() {
         Play Music 💕
       </button>
 
-      <audio ref={audioRef} src="/lagu.mp3" />
+      <audio ref={audioRef} src="/pretty.mp3" />
     </main>
   );
 }
