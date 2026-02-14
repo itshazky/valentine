@@ -18,8 +18,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Valentine"
-  description: "A special Valentine's gift for Nuril Hasmi❤️"
+  title: "Happy Valentine";
+  description: "A special Valentine's gift for Nuril Hasmi❤️";
 };
 
 export default function RootLayout({
