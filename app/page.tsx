@@ -31,7 +31,12 @@ export default function Home() {
         <InteractionFlow onFlowComplete={() => setShowGallery(true)} />
       ) : (
         <>
-          <audio src="/pretty.mp3" autoPlay loop className="hidden" />
+          <audio src="/pretty.mp3" autoPlay loop className="hidden" 
+          <button onclick="document.getElementById('bgm').play()">
+  Play Music 💕
+</button>
+
+<audio id="bgm" src="/lagu.mp3"></audio>/>
           <DomeGallery
             images={userImages}
             fit={0.8}
