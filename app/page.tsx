@@ -1,27 +1,5 @@
 'use client';
-import { useRef } from 'react';
 
-export default function Page() {
-  const audioRef = useRef<HTMLAudioElement>(null);
-
-  const playMusic = () => {
-    audioRef.current?.play();
-  };
-
-  return (
-    <main>
-      <h1>
-        Untuk Kamu ❤️
-      </h1>
-
-      <button onClick={playMusic}>
-        Play Music 💕
-      </button>
-
-      <audio ref={audioRef} src="/pretty.mp3" />
-    </main>
-  );
-}
 import { useState } from 'react';
 import DomeGallery from '@/components/DomeGallery';
 import InteractionFlow from '@/components/InteractionFlow';
